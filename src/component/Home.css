@@ -1,0 +1,42 @@
+.App .home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+tr,
+td,
+th {
+  border: 1px solid black;
+}
+
+.removeBorder {
+  border: none;
+}
+
+.inputan {
+  margin-top: 25px;
+}
+
+.fitur {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.passengerInput,
+.passengerSearch {
+  width: auto;
+  margin-right: 10px;
+}
+
+.passengerInput button,
+.passengerSearch button {
+  margin: 0;
+}
+
+.fitur .btn-fitur {
+  margin-right: 10px;
+}
